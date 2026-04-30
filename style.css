@@ -1,0 +1,12 @@
+.hat-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hat-center{
+    display: flex;
+}
+
+.hat-center button{
+    max-width: 230px;
+}
