@@ -132,6 +132,7 @@ h3{
     justify-content: center;
     align-items: center;
     margin-top: 364px;
+    padding-bottom: 54px;
 }
 .hat-down button{
     background-color: transparent;
@@ -141,6 +142,13 @@ h3{
     font-size: 12px;
     line-height: 22px;
     text-transform: uppercase;
+}
+
+.hat-down p{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
 
 .yellow-button{
@@ -173,11 +181,16 @@ h3{
     background-image: url(assets/bg\ image\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
+    z-index: -2;
+    height: 960px; 
+    /* высота фиксированная, потому что position мешает */
 }
 
 .about-text{
     margin-top: 263px;
+
 }
 
 .about-text h1{
@@ -189,22 +202,71 @@ h3{
 
 .about-par{
     margin-top: 60px;
+    margin-right: 28px;
     color: #FFFFFF;
     font-family: 'Open Sans', serif;
-    font-weight: 700;
-    font-size: 12px;
     line-height: 22px;
+    position: relative;
+    bottom: 1010px;
+    left: 187px;
+    width: 365px;
+    height: 174px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
+
 .about-photo{
-background-image: url(assets/screenshot\ 1.jpg);
-background-repeat: no-repeat;
-padding: 880px 33px 33px 35px;
-display: flex;
-align-items: center;
+
+    background-image: url(assets/screenshot\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 201px 120px 240px 580px;
+    position: relative;
+    bottom: 473px;
+    border-radius: 8px;
+    z-index: -1;
 }
+
+.strong{
+    font-weight: 700;
+}
+
+.about-photo-pro{
+    padding: 580px 0 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    background-color: transparent;
+}
+
+.photo2{
+    position: relative;
+    left: 18px;
+}
+
+.photo1{
+    position: relative;
+    bottom: 7px;
+}
+
+.about-par img{
+    position: relative;
+    left: 185px;
+    bottom: 18px;
+    z-index: -1;
+}
+
+.photo-right{
+    margin-right: 16px;
+    position: relative;
+    bottom: 1200px;
+    left: 1182px
+}
+
 /* -----ABOUT------ */
-добавить див для фоток
+
 
 
 
