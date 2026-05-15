@@ -118,6 +118,15 @@ h1{
     color: #FFFFFF;
 }
 
+h2{
+    color: #FFB548;
+    font-family: 'Bebas Neue', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
 h3{
     font-family: 'Bebas Neue', serif;
     font-size: 24px;
@@ -267,6 +276,92 @@ h3{
 
 /* -----ABOUT------ */
 
+/* ------GAME------ */
+
+.game-ground{
+    background-image: url(assets/bg\ image\ 3.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.game-text{
+    margin-top: 169px;
+    margin-bottom: 70px;
+}
+
+.game-text h1{
+    margin-top: 10px;
+}
+
+.game-def{
+    position: relative;
+    left: 990px;
+    margin-bottom: 110px;
+    margin-bottom: 260px;
+}
+
+.game-par p{
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+.game-h2{
+    margin-bottom: 42px;
+}
+
+.game-photo{
+    display: flex;
+    position: relative;
+    left: 3px;
+}
+
+
+.game-text-yel{
+    margin-left: 50px;
+}
+
+.game-photo-1{
+    position: relative;
+    bottom: 91px;
+
+}
+
+.game-photo-2{
+    position: relative;
+    bottom: 245px;
+    right: 11px;
+}
+
+.game-photo-3{
+    position: relative;
+    bottom: 320px;
+    right: 20px;
+}
+
+.game-photo-4{
+    position: relative;
+    bottom: 168px;
+    right: 35px;
+}
+/* ------GAME------ */
+
+/* -----SYSTEM----- */
+
+.system-ground{
+    background-image: url(assets/bg\ image\ 4.jpg);
+}
+
+
+/* -----SYSTEM----- */
 
 
 
